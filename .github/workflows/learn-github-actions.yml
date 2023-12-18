@@ -16,4 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: npm install -g bats
+
       - run: bats -v
